@@ -30,5 +30,7 @@ export class AppComponent implements OnInit {
     
   }
 
-  getData()
+  getData() {
+    
+  }
 }
