@@ -20,7 +20,7 @@ export interface TestData {
 })
 export class AppComponent implements OnInit {
   
-  testData$: Observable<TestData[]>;
+  testData$: Observable<TestData[]> | undefined;
 
   constructor(private http: HttpClient) {
 
